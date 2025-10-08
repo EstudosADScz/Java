@@ -9,7 +9,7 @@ public class Aluno {
     private String turma;
     private char sexo;
 
-    public Aluno(long matricula, String name, LocalDate dataNascimento, String turma, char sexo){
+    /*public Aluno(long matricula, String name, LocalDate dataNascimento, String turma, char sexo){
 
         this.matricula = matricula;
         this.name = name;
@@ -18,6 +18,8 @@ public class Aluno {
         this.sexo = sexo;
 
     }
+    */
+        
    public long getMatricula() {
        return matricula;
    }
@@ -58,5 +60,4 @@ public class Aluno {
        this.sexo = sexo;
    }
 
-    // toString removido conforme pedido - use os getters para imprimir atributo por atributo
 }
