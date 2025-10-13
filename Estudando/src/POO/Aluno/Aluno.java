@@ -1,4 +1,4 @@
-package POO;
+package POO.Aluno;
 
 import java.time.LocalDate;
 
