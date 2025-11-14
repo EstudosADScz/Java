@@ -1,8 +1,8 @@
-package poo.lucas.poo.tests;
+package poo.kaik.poo.tests;
 
-import poo.lucas.orientacaoaobjetos.classeabstrata.Circulo;
-import poo.lucas.orientacaoaobjetos.classeabstrata.Forma;
-import poo.lucas.orientacaoaobjetos.classeabstrata.Quadrado;
+import poo.kaik.orientacaoaobjetos.classeabstrata.Circulo;
+import poo.kaik.orientacaoaobjetos.classeabstrata.Forma;
+import poo.kaik.orientacaoaobjetos.classeabstrata.Quadrado;
 
 public class TestFormas {
     static void main() {

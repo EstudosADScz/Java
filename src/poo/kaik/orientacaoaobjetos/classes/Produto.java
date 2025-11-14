@@ -1,4 +1,4 @@
-package poo.lucas.orientacaoaobjetos.classes;
+package poo.kaik.orientacaoaobjetos.classes;
 
 public class Produto implements Comparable<Produto>{
 

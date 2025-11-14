@@ -1,4 +1,4 @@
-package poo.lucas.orientacaoaobjetos.classeabstrata;
+package poo.kaik.orientacaoaobjetos.classeabstrata;
 
 public class Gato extends Animal{
 

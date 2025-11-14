@@ -1,6 +1,6 @@
-package poo.lucas.poo.tests;
+package poo.kaik.poo.tests;
 
-import poo.lucas.orientacaoaobjetos.classes.Produto;
+import poo.kaik.orientacaoaobjetos.classes.Produto;
 
 import java.util.Arrays;
 

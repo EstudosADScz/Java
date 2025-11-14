@@ -1,8 +1,8 @@
-package poo.lucas.poo.tests;
+package poo.kaik.poo.tests;
 
-import poo.lucas.orientacaoaobjetos.classeabstrata.Animal;
-import poo.lucas.orientacaoaobjetos.classeabstrata.Cachorro;
-import poo.lucas.orientacaoaobjetos.classeabstrata.Gato;
+import poo.kaik.orientacaoaobjetos.classeabstrata.Animal;
+import poo.kaik.orientacaoaobjetos.classeabstrata.Cachorro;
+import poo.kaik.orientacaoaobjetos.classeabstrata.Gato;
 
 import java.util.ArrayList;
 import java.util.List;
