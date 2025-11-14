@@ -1,9 +1,7 @@
 package collections;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class introducao {
 
@@ -22,7 +20,8 @@ public class introducao {
 //
 //        List<String> nomes = new LinkedList<>(); //Duplamete encadeada, possui ponteiros que referenciam os dados sucessores e anteriores entre si
 
-        Stack<String> nomes = new Stack<>();
+        // Usando a interface Deque com a implementação ArrayDeque para uma pilha moderna
+        Deque<String> nomes = new ArrayDeque<>();
         nomes.push("João");
         nomes.push("Maria");
         nomes.push("José");

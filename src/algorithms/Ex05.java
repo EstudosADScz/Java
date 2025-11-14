@@ -26,9 +26,17 @@ public class Ex05 {
                 cont_multiplo_tres++;
             }
         }
-        int media = soma / cont_par;
+
         IO.println("Maior: " + maior + ", menor : " + menor);
-        IO.println("A média dos números pares é: " + media);
+
+        if (cont_par > 0) {
+            double media = (double) soma / cont_par;
+            IO.println("A média dos números pares é: " + media);
+        } else {
+            IO.println("Nenhum número par foi inserido.");
+        }
+
         IO.println("Multiplos de 3: " + cont_multiplo_tres);
+        scan.close();
     }
 }

@@ -12,9 +12,11 @@ public class Ex06 {
             String senhaTeste = scan.nextLine();
 
             if (senhaTeste.equals(senha)) {
-                IO.println("Senha incorreta");
+                IO.println("Senha correta!!!");
+                break; // Sai do loop se a senha estiver correta
+            } else {
+                IO.println("Senha incorreta. Tentativas restantes: " + (3 - i));
             }
-            IO.println("Senha correta!!!");
         }
         scan.close();
     }

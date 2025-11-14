@@ -21,6 +21,7 @@ public class Ex08 {
         } else {
             System.out.println(teste + " NÃO É UMA LETRA.");
         }
+        sc.close();
     }
 }
 

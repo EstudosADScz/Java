@@ -9,14 +9,15 @@ public class Ex03 {
         int num = scan.nextInt();
 
 
-        if (Perfeito(num)) {
+        if (perfeito(num)) {
             System.out.println("É perfeito!");
         } else {
             System.out.println("Não é perfeito!");
         }
+        scan.close();
     }
 
-     public boolean Perfeito(int n) {
+     public boolean perfeito(int n) {
         int soma = 0;
 
         for (int i = 1; i < n; i++) {
@@ -27,7 +28,3 @@ public class Ex03 {
         return soma == n;
     }
 }
-
-
-
-
