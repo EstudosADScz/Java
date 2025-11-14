@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45c0f208-5fe2-4a26-ad5f-027b229b28dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Estudando/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/Fatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/NumeroPerfeito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Aluno/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Aluno/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Aluno/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Aluno/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Aluno/Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Carro/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Carro/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/POO/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/Questao1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/Senha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/out/TresNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/Exercícios/Fatorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/Exercícios/NumeroPerfeito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/Exercícios/Senha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/Exercícios/TresNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/POO/Carro/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/POO/Carro/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/POO/Escola/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/POO/Escola/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/POO/Escola/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/POO/Escola/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudando/src/POO/Escola/Professor.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="35RruyI26IY25AVW6h7TrjF9z5i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "lucas",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/home/lukinha/IdeaProjects/Org/src/Main.java",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45c0f208-5fe2-4a26-ad5f-027b229b28dc" name="Changes" comment="" />
+      <created>1763083955537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763083955537</updated>
+    </task>
+    <servers />
+  </component>
+</project>
