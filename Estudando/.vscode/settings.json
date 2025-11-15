@@ -1,0 +1,8 @@
+{
+  // Aponta para a pasta de instalação do seu JDK
+  "java.home": "/usr/lib/jvm/jdk-25",
+
+  // Configurações de compilação
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic"
+}

@@ -1,8 +1,8 @@
-package POO.Escola;
+package POO.Superclasse.Pessoa;
 
 import java.time.LocalDate;
  
-public class Professor extends Funcionario {
+public class Professor extends Funcionario { // Funcionario está no mesmo pacote
     private String disciplina;
  
     public Professor(long matricula, String name, LocalDate dataNascimento, char sexo, double salario, LocalDate dataAdmissao, String disciplina) {

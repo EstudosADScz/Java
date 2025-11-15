@@ -1,4 +1,4 @@
-package POO.Escola;
+package POO.Superclasse.Pessoa;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
