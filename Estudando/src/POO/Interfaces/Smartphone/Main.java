@@ -5,5 +5,4 @@ public class Main {
         Smartphone smartphone = new Smartphone();
         smartphone.usarSmartphone();
     }
-    
 }

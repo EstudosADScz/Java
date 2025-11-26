@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "POO.Interfaces.Smartphone.Main",
+      "projectName": "Estudando_6c94e6ad"
+    },
+    {
+      "type": "java",
       "name": "Rodar Arquivo Atual",
       "request": "launch",
       "mainClass": "${file}",
