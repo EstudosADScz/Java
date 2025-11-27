@@ -8,7 +8,8 @@ public class Aula1 {
         try {
             criarArquivo("teste.txt");
             System.out.println("Arquivo criado com sucesso");
-        } catch (IOException e) {
+        } 
+        catch (IOException e) {
             System.out.println("Ocorreu um erro ao criar o arquivo: " + e.getMessage());
         }
         catch (ArithmeticException e){
