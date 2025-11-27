@@ -1,6 +1,11 @@
 package POO.Interfaces.Smartphone;
 
 public class Smartphone implements AparelhoEletronico, ReprodutorMusical, NavegadorInternet {
+    private String modelo;
+
+    public Smartphone(String modelo){
+        this.modelo = modelo;
+    }
 
     @Override
     public void ligar() {
