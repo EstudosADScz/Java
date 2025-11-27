@@ -1,0 +1,7 @@
+package POO.Exceptions.Banco;
+
+public class LimiteExcedidoException extends Exception {
+    public LimiteExcedidoException(String message) {
+        super(message);
+    }
+}
