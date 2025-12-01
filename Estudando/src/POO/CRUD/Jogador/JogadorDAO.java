@@ -1,35 +1,42 @@
 package POO.CRUD.Jogador;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.util.HashSet;
 import java.util.Set;
 
 public class JogadorDAO {
-    Set<Jogador> jogadores;
+    private File file;
 
-    public JogadorDAO() {
-        jogadores = new HashSet<>();
-    }
-    
-    public boolean adicionarJogador(Jogador jogador) {
-        return jogadores.add(jogador);
-    }
-    
-    public boolean verificarJogador(Jogador jogador) {
-        return jogadores.contains(jogador);
+    public JogadorDAO() throws IOException {
+        file = new File("jogadores.txt");
+        if(!file.exists()){
+            file.createNewFile();
+        }
     }
 
-    public boolean removerJogador(Jogador jogador) {
-        return jogadores.remove(jogador);
+    @SuppressWarnings("unchecked")
+    public Set<Jogador> getJogadores() throws IOException, ClassNotFoundException {
+        if(file.length() == 0) return new HashSet<>();
+        try (ObjectInputStream in = new ObjectInputStream(new java.io.FileInputStream(file))) {
+            return (Set<Jogador>) in.readObject();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new HashSet<>();
+        }
     }
 
-    public boolean atualizarJogador(Jogador jogador) {
-        return jogadores.remove(jogador) && jogadores.add(jogador);
+    public boolean adicionarJogador(Jogador jogador) throws IOException, ClassNotFoundException {
+        Set<Jogador> jogadores = getJogadores();
+        boolean adicionou = jogadores.add(jogador);
+        if (adicionou) atualizarArquivo(jogadores);
+        return adicionou;
     }
 
-    public Set<Jogador> listarJogadores() {
-        return jogadores;
+    private void atualizarArquivo(Set<Jogador> jogadores) throws IOException {
+        try (java.io.ObjectOutputStream out = new java.io.ObjectOutputStream(new java.io.FileOutputStream(file))) {
+            out.writeObject(jogadores);
+        }
     }
-
-
-    
 }

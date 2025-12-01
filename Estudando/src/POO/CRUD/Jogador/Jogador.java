@@ -1,8 +1,9 @@
 package POO.CRUD.Jogador;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Jogador {
+public class Jogador implements Serializable {
     private String name;
     private LocalDate nascimento;
     private String time;
