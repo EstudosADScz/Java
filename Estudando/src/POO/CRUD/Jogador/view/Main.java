@@ -1,6 +1,9 @@
-package POO.CRUD.Jogador;
+package POO.CRUD.Jogador.view;
 
 import java.time.LocalDate;
+
+import POO.CRUD.Jogador.dao.JogadorDAO;
+import POO.CRUD.Jogador.model.Jogador;
 
 public class Main {
     public static void main(String[] args){

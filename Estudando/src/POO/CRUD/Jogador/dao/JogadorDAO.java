@@ -1,10 +1,12 @@
-package POO.CRUD.Jogador;
+package POO.CRUD.Jogador.dao;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.HashSet;
 import java.util.Set;
+
+import POO.CRUD.Jogador.model.Jogador;
 
 public class JogadorDAO {
     private File file;

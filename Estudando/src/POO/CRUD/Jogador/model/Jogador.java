@@ -1,4 +1,4 @@
-package POO.CRUD.Jogador;
+package POO.CRUD.Jogador.model;
 
 import java.io.Serializable;
 import java.time.LocalDate;
