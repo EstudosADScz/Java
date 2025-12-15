@@ -1,3 +1,5 @@
+package POO.Colecao;
+
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
